@@ -1,0 +1,19 @@
+.TopText{
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 96px;
+    font-weight: 700;
+
+}
+
+.Back{
+    background-color: #531293;
+    height: 399px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 50px;
+}

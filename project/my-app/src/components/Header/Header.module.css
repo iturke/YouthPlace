@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #531293;
+    height: 130px;
+  }
+  
+  .butList {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* відступ між логотипом і текстом */
+}
+
+
+  .logoImage {
+  width: 50px;    
+  height: auto;
+  }
+
+  .logoText {
+    font-size: 34px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: hsl(220, 10%, 20%);
+    font-weight: 500;
+  }

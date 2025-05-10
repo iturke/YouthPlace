@@ -1,4 +1,4 @@
-import profilePic from './assets/pic.jpg'
+import profilePic from './assets/vite.svg'
 
 function Card(){
     return(

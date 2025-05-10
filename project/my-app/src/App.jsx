@@ -1,23 +1,17 @@
-import Header from "./Header"
-import Footer from "./Footer"
-import Food from "./Food"
-import Card from "./Card"
-import Button from "./Button/Button"
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import LandingScreen from "./screens/LandingScreen";
+import LogInScreen from "./screens/LogInScreen";
 
 function App() {
-  return(
-    <>
-       <Header/>
-      <Card />
-      <Card />
-      <Button/>
-      <Food/>
-      <Footer/>
-
-    </>
-  );
-
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<LandingScreen />} />
+                <Route path="/login" element={<LogInScreen />} />
+            </Routes>
+        </Router>
+    );
 }
 
-export default App
+export default App;
+

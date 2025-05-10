@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .card{
-  
   border: 10px solid rgb(205, 9, 9); 
   border-radius: 10px;
   box-shadow: 5px 5px rgb(221, 106, 106);
