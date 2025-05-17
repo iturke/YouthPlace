@@ -1,0 +1,116 @@
+.eventsSection {
+  background-color: #2e2b3f;
+  color: white;
+  text-align: center;
+}
+
+
+.header {
+  position: relative;
+  background-color: #3c005d;
+  overflow: hidden;
+}
+.pinkBlob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 80px;
+  background: linear-gradient(90deg, #ff3cac, #784ba0);
+  transform: translate(-50%, -50%) skewX(-20deg) scaleX(1.5);
+  border-radius: 50px;
+  z-index: 1;
+}
+.title {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 60px 20px 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.bubble {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #ff0080, #c32aa3);
+  border-radius: 50%;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+.bottomWave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+
+/* == SORT BUTTON == */
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.sortButton {
+  background-color: transparent;
+  border: 1px solid #ff3cac;
+  color: #ff3cac;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* == GRID OF 3 CARDS == */
+.eventGrid {
+  display: grid;
+  /* Три колонки рівної ширини */
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.eventCard {
+  background-color: #3e3a55;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+  padding: 12px;
+}
+.eventImage {
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.eventTitle {
+  margin: 8px 0 4px;
+  font-size: 16px;
+}
+.eventDesc {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* == MORE BUTTON == */
+.moreButtonWrapper {
+  margin-bottom: 40px;
+}
+.moreButton {
+  background-color: #ff0080;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+
