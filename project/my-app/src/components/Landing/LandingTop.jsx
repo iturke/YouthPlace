@@ -40,7 +40,7 @@ const StyledEllipse5 = styled.div`
   overflow: hidden;
   position: relative;
 
-  margin-bottom: -90px;
+  margin-bottom: -95px;
 
   img {
     width: 100%;

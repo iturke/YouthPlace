@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Header from "./../components/Header/Header"
+import Header from "../components/Header/Header"
 import Footer from "./../Footer"
-import LandingBody from "../components/Landing/LandingBody/LandingBody"
+import LandingBody from "../components/Landing/LandingBody"
 import Card from "./../Card"
 import "../fonts.css"
 

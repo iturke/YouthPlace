@@ -2,7 +2,7 @@
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} Your web site name</p>
+            <p>&copy; {new Date().getFullYear()} Youth place</p>
         </footer>
     );
 }
