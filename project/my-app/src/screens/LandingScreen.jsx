@@ -3,7 +3,6 @@ import Header from "./../components/Header/Header"
 import Footer from "./../Footer"
 import LandingBody from "../components/Landing/LandingBody/LandingBody"
 import Card from "./../Card"
-import Button from "./../components/Button/Button"
 import "../fonts.css"
 
 

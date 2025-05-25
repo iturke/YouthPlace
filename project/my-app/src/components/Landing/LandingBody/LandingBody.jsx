@@ -1,5 +1,5 @@
 import styles from './LandingBody.module.css';
-import LandingTop from '../LandingTop/LandingTop';
+import LandingTop from '../LandingTop';
 import LanndingBottom from '../LandingBottom/LandingBottom';
 
 function LandingBody(){
@@ -14,3 +14,4 @@ function LandingBody(){
 }
 
 export default LandingBody
+
